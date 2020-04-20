@@ -1,0 +1,191 @@
+
+
+@import url("components/card.css");
+@import url("components/banner.css");
+
+
+body{ 
+	background-color:black;
+	color:white;
+	min-width: 320px;
+ }
+
+
+#identify{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-right:45px;
+    padding: 0.25rem 0.5rem;
+	float:right;
+	background-color: rgb(229, 9, 20);
+}
+#net {
+	 height: 100px;
+    width: 180px;
+	 float:left;
+	 margin-left:45px;
+}
+
+.form-group{
+	margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+#essayer{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 2px;
+    height: 60px;
+    width: 180px;
+    font-size:26px;
+    margin-top:10px;
+}
+
+#mail{ 
+    width: 450px;
+    height: 60px;
+    border-radius: 0px;
+    margin-top: 10px;
+ 
+  }
+
+#adresse {
+	position:absolute;
+	top: 30px;
+    left: 20px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+
+.parent{
+	position:relative;
+}
+
+.child1 { 
+z-index:2;
+
+}
+
+.child2 { 
+z-index:1;
+position:absolute;
+top:85px;
+right:-10px;
+
+}
+.child2 video { 
+width:auto;
+max-width: 80%;
+height:auto;
+display:block;
+    }
+
+
+
+.child3 { 
+z-index:2;
+
+}
+
+.child4 { 
+z-index:1;
+position:absolute;
+bottom:0px;
+left:120px;
+
+}
+
+.spinner-border {
+	float:right;
+}
+.child4 img { 
+
+width:auto;
+max-width: 30%;
+height:auto;
+display:block;
+    }
+
+
+.child5 { 
+z-index:2;
+
+}
+
+.child6 { 
+z-index:1;
+position:absolute;
+top:50px;
+left:120px;
+
+}
+.child6 video { 
+
+width:auto;
+max-width: 65%;
+height:auto;
+display:block;
+    }
+
+
+.row h1{
+font-size:50px;
+text-align: left;
+}
+.row p{
+	font-size:26px;
+	font-style: lighter;
+}
+
+.row li{
+	margin: 10px;
+	text-align: left;
+}
+
+.card-faq{
+margin: 0px auto;
+max-width: 800px;
+position: relative;
+
+}
+
+.card-faq {
+	font-size: 26px;
+}
+
+.card-body {
+	background-color:#303030;
+}
+.btn-lg{ 
+border-radius:0px;
+font-size:26px; }
+
+h3{
+	font-size: :19px;
+	padding-top: 20px;
+}
+
+h4 {
+
+font-size:50px;
+text-align: center;
+padding-bottom:30px;
+
+}
+
+h5{
+color:grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+#langues {
+	background-color: grey;
+	color:white;
+}
+
+

@@ -1,0 +1,39 @@
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 60)),url(../../images/back.png);
+	  background-position:center;
+    background-size: cover;
+	  padding: 210px 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    border-bottom: 8px solid #222;
+}
+
+
+
+.banner h1,h2,h3 {
+	text-align: center;
+	color:white;
+	display: block;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight :bold;
+ 
+}
+.banner h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top:16px;
+  margin-bottom: 16px;
+     }
+
+.banner h3 { 
+font-size:19px;
+font-weight:normal; }
+
+.banner form{
+	float:center;
+}
